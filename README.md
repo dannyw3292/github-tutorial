@@ -28,9 +28,9 @@ _by Danny Wu_
      * For the key, you'll need to head on over to <https://c9.io/>. You should have an account already and if not, make one.
        1) Now that you're on c9.io, find the gear icon on the top right and click that.
        2) You should be at a page that shows your account settings, find the one that is called **SSH Keys** and click that.
-       3) There should be two large blocks of text, *(the text is like a password but it's so random no one would be able to use it)*, copy the entire block under the tab called "Connect to your private git repository".
+       3) There should be two large blocks of text, *(the text is like a password but it's so random no one would be able to figure it out)*, copy the entire block under the tab called "Connect to your private git repository".
   4) Now that you have the SSH key to connect github and c9, go back to github and dump that key into the box labelled "key".
-  5) Finally, add the new SSH key. Bam, you're done setting up the connection between c9 and github.
+  5) Finally, add the new SSH key. Bam, you're done setting up the connection between c9 and github!
 
 ---
 ## Repository Setup
