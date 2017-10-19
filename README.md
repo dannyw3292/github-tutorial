@@ -32,10 +32,12 @@ _by Danny Wu_
        3) There should be two large blocks of text, *(the text is like a password but it's so random no one would be able to figure it out)*, copy the entire block under the tab called "Connect to your private git repository".
   4) Now that you have the SSH key to connect github and c9, go back to github and dump that key into the box labelled "key".
   5) Finally, add the new SSH key. Bam, you're done setting up the connection between c9 and github!
+  6) But wait, you need to authenticate your SSH key so you'll need to head into your c9 IDE (*Internal Development Environment*) and then enter this `ssh -T git@github.com`.
+     * To make sure you got this right, you should see `Hi <your username>! You've successfully authenticated, but GitHub does not provide shell access._` in your command box (usually on the bottom tab called bash - "insert your username")
 
 ---
 ## Repository Setup
-
+- 
 
 
 ---
