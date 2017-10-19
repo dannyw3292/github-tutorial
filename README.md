@@ -15,6 +15,7 @@ _by Danny Wu_
 
 ---
 ## Initial Setup
+**needs some images, specifically for the settings tab and ssh key ex**
 - In order to start using github to organize your stuff, you'll need a github account  
   1) Go over to <https://github.com/>
   2) Look around for the huge "sign up" tab in the center-right of the screen or the top right.
