@@ -36,8 +36,13 @@ _by Danny Wu_
      * To make sure you got this right, you should see `Hi <your username>! You've successfully authenticated, but GitHub does not provide shell access._` in your command box (usually on the bottom tab called bash - "insert your username")
 
 ---
-## Repository Setup
-- 
+## Repository Setup  
+
+* After you have set up your SSH keys and everything else, you'll want to have a directory or a place where you want to tinker around.
+   1) First things first, make your directory and in the command box labelled "bash - your username", type in `git init`.
+      * What `git init` does will initialize your directory and turn it into a local repository. _You'll know when your directory has been initialized when you see -insert image with (master)- in your command box_.
+* Now that you have made your local repository, you're free to tinker and code as you like.
+  1) If you're satisfied with whatever changes or files you made, you need to add them to the staging area
 
 
 ---
