@@ -42,7 +42,21 @@ _by Danny Wu_
    1) First things first, make your directory and in the command box labelled "bash - your username", type in `git init`.
       * What `git init` does will initialize your directory and turn it into a local repository. _You'll know when your directory has been initialized when you see -insert image with (master)- in your command box_.
 * Now that you have made your local repository, you're free to tinker and code as you like.
-  1) If you're satisfied with whatever changes or files you made, you need to add them to the staging area
+  1) If you're satisfied with whatever changes or files you made, you need to add them to the staging area. Do this by typing in `git add` in the command box. Keep this in mind, there are different types commands to add, `git add filename`, `git add .`, and `git add --all`.
+     * `git add filename` will add the file you specified with changes made and only that file to the stage.
+     * `git add .` will add all current files within the directory that has changes to them to the stage
+     * `git add --all` will add all files with changes in them, including deleted files, to the stage.
+  2) After you've added your changes to the staging area, you can commit them. Whenever you commit, it's necessary to add a message of what you've done in between your previous and current commit. If it's the first commit, add a message of what you've done so far. Do this by entering `git commit -m "insert message"` into the command box.
+  3) Alright! You have your commit now, but what do you do? You need to send it off to a remote repository using `git push`.
+     1) Head on over back to the github website and find the PLUS (+) symbol to the left of your profile icon on the top right.
+     2) Click it and then a list should appear, click the one that says "New repository".
+     3) Name the new repository the **EXACT SAME** as your directory name.
+        * If you don't, the next steps will not work for you. _So make sure you have it the exact same!_
+     4) Leave everything as is unless you know what you're doing or you've been instructed to change it and create the new repository.
+     5) You'll be brought to a new tab where it explains to you what you should to in order to push to this repository on github, **MAKE SURE YOU HAVE THE SSH SELECTED!!**
+        * After you select SSH (if you haven't done so already), find the strips of code underneath "…or push an existing repository from the command line" since we've made the local repository earlier.
+           1)  You'll want to copy the first strip that is `git remote add origin git@github.com:dannyw3292/test-remote-repo.git`
+  
 
 
 ---
