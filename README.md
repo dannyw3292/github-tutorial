@@ -72,3 +72,17 @@ _by Danny Wu_
 
 ---
 ## Rolling Back Changes
+  * Oh no! You made a mistake, how will you fix that?
+    * You can't exactly just "contrl + z" to revert the mistakes though. You'll need to use commands to 'rollback' or go back to a previous commit in order to get previous work back.  
+    This is how you do it:
+    1) To rollback back from a commit to before you add changes to the stage, you'll want to use `git reset HEAD~1`.
+       * This will bring you back to editing and you'll need to re-add any further changes back to the stage in order to commit.
+    2) If you want to go back from a commit to the staging area, you'll need to use `git reset --soft HEAD~1`.
+       * This will bring you back to the staging area where git status would show it as green.
+    3) If you want to roll back a push, you can't sadly. You'd have to 'nuke' or destroy the commit you've pushed using `git reset --hard HEAD~1`.
+       * You won't be able to use or go back to the deleted commit after doing this so heads up. You can however, retrieve it using `git reflog` followed by `git checkout -b`. 
+       * `git reflog` will give you a list of commits you've made as reference IDs.
+       * `git checkout -b` will allow you to retreive the specified commit. (after you type in `git checkout -b`, you need to put in the reference ID of the commit you want to retrieve, ex: `git checkout -b 5effc3`).  
+  - Well now you've got it all figured out in order to rollback some changes! Congratulations!
+  
+  
