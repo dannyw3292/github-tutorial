@@ -46,7 +46,6 @@ _by Danny Wu_
      * `git add filename` will add the file you specified with changes made and only that file to the stage.
      * `git add .` will add all current files within the directory that has changes to them to the stage
      * `git add --all` will add all files with changes in them, including deleted files, to the stage.
- ___
   2) After you've added your changes to the staging area, you can commit them. Whenever you commit, it's necessary to add a message of what you've done in between your previous and current commit. If it's the first commit, add a message of what you've done so far. Do this by entering `git commit -m "insert message"` into the command box.
   3) Alright! You have your commit now, but what do you do? You need to send it off to a remote repository using `git push`.
      1) Head on over back to the github website and find the PLUS (+) symbol to the left of your profile icon on the top right.
@@ -59,10 +58,12 @@ _by Danny Wu_
            1)  You'll want to copy the first strip that is `git remote add origin git@github.com:your-username/repo-name.git` and paste it into your c9 command box. What this does is creates a connection between your local repository which is the one in c9 to the one you made on github which is the remote repository.
            2) Now'll you'll want to copy the second strip of code underneath the first one which is `git push -u origin master`. What this will does is it make the remote repository you've connected to the default repository for commits to be pushed into and only for that directory.
      6) Excellent, you have your connection between the local and remote repository now! You'll want to push your commits so that it stays in the remote for your future use or anyone else to use. Type in `git push` in bash and note, **it will only push COMMITS.** You won't need to specify where you want to push it to every single time because of you already set a default repository to push everything to.
+     7) If you want to check your connection, you type in `git remote -v`. 
 
 ---
 ## Workflow & Commands
-  1)
+  * Usually, after setting up your local and remote repository AND the connection between both, you're free to do whatever you want for your code now. There are, however, some habits you should pick up for whenever you begin coding.
+  1) The first habit and the most necessary is to use `git status` almost every single time you enter your local repository and whenever you make some changes. What `git status` does is that it shows you if changes has been made to a file and if it has to be staged first. If it needs to be sent to the stage, the text should appear in red as "modified: insert-filename.md". If not, you should appear as green
 
 
 ---
