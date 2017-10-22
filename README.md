@@ -63,7 +63,11 @@ _by Danny Wu_
 ---
 ## Workflow & Commands
   * Usually, after setting up your local and remote repository AND the connection between both, you're free to do whatever you want for your code now. There are, however, some habits you should pick up for whenever you begin coding.
-  1) The first habit and the most necessary is to use `git status` almost every single time you enter your local repository and whenever you make some changes. What `git status` does is that it shows you if changes has been made to a file and if it has to be staged first. If it needs to be sent to the stage, the text should appear in red as "modified: insert-filename.md". If not, you should appear as green
+  1) The first habit and the most necessary is to use `git status` almost every single time you enter your local repository and whenever you make some changes. What `git status` does is that it shows you if changes has been made to a file and if it has to be staged first. If it needs to be sent to the stage, the text should appear in red as "modified: insert-filename.md". If not, you should appear as green.
+  2) Alright, if you have changes you want to start sending up to the remote, you'll need to check if it's red through `git status`. If it is, then use the aforementioned `git add` commands to stage the changes and it should now appear as green if you use `git status` again.
+  3) Now that you have your changes staged, you'll need to commit them so use `git commit -m "insert whatever msg makes sense that sums up what you've done in between commits"`. This will make a commit.
+  4) Now you'll be wondering "so what, I don't see my new changes on github". This is where `git push` comes in, you quite literally "push" your changes to the remote repository from the local repository so that the changes are now on github. Others can now "pull" the new changes and work off of that and you can also do the same if you accidentally _or purposefully_ deleted your local repository to get the commits you've pushed to.
+  * Anywho, these are the four habits that you should always do for any small or big changes you've made to file(s)!
 
 
 ---
