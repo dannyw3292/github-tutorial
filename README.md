@@ -84,5 +84,7 @@ _by Danny Wu_
        * `git reflog` will give you a list of commits you've made as reference IDs.
        * `git checkout -b` will allow you to retreive the specified commit. (after you type in `git checkout -b`, you need to put in the reference ID of the commit you want to retrieve, ex: `git checkout -b 5effc3`).  
   - Well now you've got it all figured out in order to rollback some changes! Congratulations!
-  
-  
+ 
+---
+## Etc.
+  * If you want to collaborate or have others use your repository, you'll need to send the latest commits to the remote and from there, your partners or others "fork it"
