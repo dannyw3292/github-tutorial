@@ -4,13 +4,12 @@ _by Danny Wu_
 
 ---
 ## Git vs. GitHub
-* **Github** is _-insert what github is in a nutshell-_
+* **Github** is the storage of files and other code-related stuff in the cloud for yourself and/or others to collaborate on.
   * The code is stored in the cloud up high above.
   * It tracks any changes made and organizes it.
   * It allows for collaboration on files.
   * **IT REQUIRES GIT**
-* **Git** is _-insert what git is in a nutshell-_
-  * _insert some functions of git_ 
+* **Git** is the collection of "snapshots" of your code.
   * **IT DOESN'T REQUIRE GITHUB**
 
 ---
@@ -64,7 +63,16 @@ _by Danny Wu_
      7) If you want to check your connection, you type in `git remote -v`. 
 
 ---
-## Workflow & Commands
+## Workflow & Commands  
+There are also some basic commands you should be using:  
+* `cd`, it changes the directory. If you want to move up a directory, you use `cd directory name` or if you want to move back one, you use `cd ..` Note, it will on change into directories it sees, so if you want to cd into a previous directory but it doesn't exist in the directory you're on, it won't do anything.
+* `mkdir`, it makes a new directory within a directory if you're inside of one, you use `mkdir directory name`.
+* `rm`, it removes files. There are different types of `rm` that does something similar.
+  * If you want to remove an empty directory, you use `rmdir directory name`
+  * If you want to remove a directory with files entirely, you use `rm -rf directory name`
+* `touch`, it will create a new file within the directory (if you're inside one), you use `touch filename`
+
+
   * Usually, after setting up your local and remote repository AND the connection between both, you're free to do whatever you want for your code now. There are, however, some habits you should pick up for whenever you begin coding.
   1) The first habit and the most necessary is to use `git status` almost every single time you enter your local repository and whenever you make some changes. What `git status` does is that it shows you if changes has been made to a file and if it has to be staged first. If it needs to be sent to the stage, the text should appear in red as "modified: insert-filename.md". If not, you should appear as green.
   2) Alright, if you have changes you want to start sending up to the remote, you'll need to check if it's red through `git status`. If it is, then use the aforementioned `git add` commands to stage the changes and it should now appear as green if you use `git status` again.
