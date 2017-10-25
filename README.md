@@ -19,9 +19,9 @@ _by Danny Wu_
   1) Go over to <https://github.com/>
   2) Look around for the huge "sign up" tab in the center-right of the screen or the top right.
   3) Make your account and sign into it.
-        1. To do this, you need to enter a name, e-mail, and password for your new account.
-        2. Next, choose bewteen the two plans- public and private. For this tutorial, public is recommended.
-        3. There will be a survey at the end that you can choose to fill out or ignore. Once this is done, your account is completed!
+        1) To do this, you need to enter a name, e-mail, and password for your new account.
+        2) Next, choose bewteen the two plans- public and private. For this tutorial, public is recommended.
+        3 There will be a survey at the end that you can choose to fill out or ignore. Once this is done, your account is completed!
 - Now that you have your account for github, you'll have to set-up a SSH key.
   1) On the top right next to the 'PLUS (+)' is your profile icon. Click that.
   2) It should bring out a list, you'll want to click the settings.
